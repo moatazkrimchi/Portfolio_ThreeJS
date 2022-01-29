@@ -20,7 +20,6 @@ import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import thumbgit from '../public/images/links/gith.png'
-import thumbInst from '../public/images/links/inst.png'
 import thumbold from '../public/images/works/work/old.png'
 
 const Home = () => (
@@ -90,7 +89,7 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2017</BioYear>
-          Obtaining my bachelor's degree.
+          Obtaining my bachelors degree.
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>

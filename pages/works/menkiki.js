@@ -6,7 +6,6 @@ import {
   List,
   ListItem,
   SimpleGrid,
-  UnorderedList,
   Image
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
@@ -21,7 +20,7 @@ const Work = () => (
         Analyse Sentiment <Badge>-2020</Badge>
       </Title>
       <P>
-      This project allows to extract the tweets related to the "diabetic" disease then cleaning these tweets in order to analyze the dentiments of the different texts 
+      This project allows to extract the tweets related to the diabetic disease then cleaning these tweets in order to analyze the dentiments of the different texts 
       </P>
      
       

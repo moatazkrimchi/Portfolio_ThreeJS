@@ -4,9 +4,6 @@ import {
   Link,
   List,
   ListItem,
-  SimpleGrid,
-  UnorderedList,
-  Heading,
   Center,
   Image
 } from '@chakra-ui/react'
