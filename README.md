@@ -1,6 +1,6 @@
 # Portfolio
 
-Un site web personnel résume mes compétences, stage et les projets réaliser pour données une image sur mon parcours académique et professionnel.
+Un site web personnel résume mes compétences, stage et les projets réalisés pour données une image sur mon parcours académique et professionnel.
 https://krimchimoataz.netlify.app/
 ## Interface Graphique
 
