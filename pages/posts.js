@@ -44,7 +44,7 @@ const Posts = () => (
           />
           <Paragraph>
           <Link> May 18, 2023 </Link> <br/> <br/>
-          Focuses on leveraging SAS Viya's distributed programming capabilities for efficient analysis of large-scale data, covering parallel processing and distributed computing techniques.
+          Focuses on leveraging SAS Viya&apos;s distributed programming capabilities for efficient analysis of large-scale data, covering parallel processing and distributed computing techniques.
           </Paragraph>
 
 

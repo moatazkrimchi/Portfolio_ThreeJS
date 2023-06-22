@@ -21,7 +21,7 @@ import {
         SHOOTER <Badge>-2022</Badge>
         </Title>
         <P>
-        The game is called shooter, it's an RPG where you have a tree that can shoot projectiles to kill monsters without inflicting attacks on it, and after a while firefalls activate to make the game more difficult, the goal is to survive by earning as many points as possible (score).
+        The game is called shooter, it&apos;s an RPG where you have a tree that can shoot projectiles to kill monsters without inflicting attacks on it, and after a while firefalls activate to make the game more difficult, the goal is to survive by earning as many points as possible (score).
 Once a player has run out of life points, the game ends.
          </P>
         
