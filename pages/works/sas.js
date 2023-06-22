@@ -11,8 +11,6 @@ import {
   import { Title, WorkImage, Meta } from '../../components/work'
   import P from '../../components/paragraph'
 
-  const filePath = '/pdf/rapport.pdf';
-
 
   const Work = () => (
     
