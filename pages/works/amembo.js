@@ -30,13 +30,13 @@ const Work = () => (
       <List ml={4} my={4}>
       <ListItem>
           <Meta>Source WebApp</Meta>
-          <Link href="https://github.com/moatazkrimchi/Projet_Integre_S5_Credit_Logement">
+          <Link href="https://github.com/moatazkrimchi/Projet_Integre_S5_Credit_Logement" target="_blank">
             Notebook GitHub <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Source Prediction model</Meta>
-          <Link href="https://github.com/moatazkrimchi/Machine_Learning/blob/main/Pr%C3%A9vision_credit_kaggle.ipynb">
+          <Link href="https://github.com/moatazkrimchi/Machine_Learning/blob/main/Pr%C3%A9vision_credit_kaggle.ipynb" target="_blank">
             Notebook GitHub <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

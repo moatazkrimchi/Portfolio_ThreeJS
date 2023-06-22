@@ -28,7 +28,7 @@ const Work = () => (
       <List ml={4} my={4}>
       <ListItem>
           <Meta>Source</Meta>
-          <Link href="https://github.com/moatazkrimchi/Spark/blob/main/tweets_sentiment.ipynb">
+          <Link href="https://github.com/moatazkrimchi/Spark/blob/main/tweets_sentiment.ipynb" target="_blank">
             Notebook GitHub <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

@@ -21,7 +21,7 @@ Which product combinations sell the most?
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Source</Meta>
-          <Link href="https://github.com/moatazkrimchi/Data-analyst/blob/main/Analyse%20des%20vendes%20d'une%20entreprise.ipynb">
+          <Link href="https://github.com/moatazkrimchi/Data-analyst/blob/main/Analyse%20des%20vendes%20d'une%20entreprise.ipynb" target="_blank">
             Notebook GitHub <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

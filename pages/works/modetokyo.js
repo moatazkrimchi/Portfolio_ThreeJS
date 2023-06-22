@@ -22,7 +22,7 @@ const Work = () => (
       <List ml={4} my={4}>
       <ListItem>
           <Meta>Source</Meta>
-          <Link href="https://github.com/moatazkrimchi/Assistant_Python/blob/master/Assistant_virtuel.py">
+          <Link href="https://github.com/moatazkrimchi/Assistant_Python/blob/master/Assistant_virtuel.py" target="_blank">
             Notebook GitHub <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

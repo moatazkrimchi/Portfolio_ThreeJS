@@ -24,13 +24,13 @@ The manager even has access to a stock management platform in order to manage th
       <List ml={4} my={4}>
       <ListItem>
           <Meta>Source FrontEnd</Meta>
-          <Link href="https://github.com/moatazkrimchi/frontend-acaps">
+          <Link href="https://github.com/moatazkrimchi/frontend-acaps" target="_blank">
             Notebook GitHub <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Source BackEnd</Meta>
-          <Link href="https://github.com/moatazkrimchi/backend-acaps">
+          <Link href="https://github.com/moatazkrimchi/backend-acaps" target="_blank">
             Notebook GitHub <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

@@ -24,7 +24,7 @@ const Work = () => (
       <List ml={4} my={4}>
       <ListItem>
           <Meta>Source</Meta>
-          <Link href="https://github.com/moatazkrimchi/Video_python/blob/main/Video_avec_python_COVID.ipynb">
+          <Link href="https://github.com/moatazkrimchi/Video_python/blob/main/Video_avec_python_COVID.ipynb" target="_blank">
             Notebook GitHub <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

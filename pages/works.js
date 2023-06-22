@@ -11,13 +11,46 @@ import thumbModeTokyo from '../public/images/works/work/voice.jpg'
 import thumbStyly from '../public/images/works/work/video.png'
 import thumbPichu2 from '../public/images/works/work/logoo.png'
 import thumbFreeDBTagger from '../public/images/works/work/emi.jpg'
-import thumbAmembo from '../public/images/works/work/credit.png'
+import thumbAmembo from '../public/images/works/work/credit.jpg'
+import insur from '../public/images/works/work/insur.png'
+import sas from '../public/images/works/work/sas.jpg'
+import django from '../public/images/works/work/django.png'
+import shooter from '../public/images/works/work/shooter.png'
+import py from '../public/images/works/work/pym.png'
+
 
 const Works = () => (
   <Layout title="Works">
     <Container>
+    <Section delay={0.2}>
+        <Divider my={6} />
+
+        <Heading as="h3" fontSize={20} mb={4}>
+        Professional Experience
+
+        </Heading>
+      </Section>
+
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.3}>
+          <WorkGridItem
+            id="BI"
+            thumbnail={insur}
+            title="BI project"
+          >
+          Implementation of a business intelligence solution for the 
+ANIA health insurance platform
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="sas" thumbnail={sas} title="SAS VIYA Project">
+          Visualization of CDM agency completion rates to observe their performance           </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+      
+      <Divider my={6} />
       <Heading as="h3" fontSize={20} mb={4}>
-        Works
+        Data Project
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
@@ -50,6 +83,7 @@ const Works = () => (
           Extract tweets related to diabetes and analyze the sentiment of different tweets using TextBlob, Wordcloud, pyspark 
           </WorkGridItem>
         </Section>
+
       </SimpleGrid>
 
       <Section delay={0.2}>
@@ -81,7 +115,8 @@ const Works = () => (
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-        Web application 
+        Web Application 
+        
         </Heading>
       </Section>
 
@@ -105,7 +140,45 @@ const Works = () => (
           Realization of a housing credit prediction application for CIH, BCP, BMCI banks using a machine learning algorithm 
           </WorkGridItem>
         </Section>
+        <Section delay={0.5}>
+          <WorkGridItem
+            id="django"
+            thumbnail={django}
+            title="Django APP"
+          >
+CRM application for managing customers, products and orders in an e-commerce marketplace</WorkGridItem>
+        </Section>
       </SimpleGrid>
+
+      <Section delay={0.4}>
+        <Divider my={6} />
+
+        <Heading as="h3" fontSize={20} mb={4}>
+       Games
+        
+        </Heading>
+      </Section>
+
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.5}>
+          <WorkGridItem id="shooter" thumbnail={shooter} title="Shooter">
+          Using the pygame library to create a 2D game using the python language
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.5}>
+          <WorkGridItem
+            id="py"
+            thumbnail={py}
+            title="PyMoataz"
+          >
+           Create a 3-dimensional game like Pokémon, an imaginary space with characters
+          </WorkGridItem>
+        </Section>
+       
+      </SimpleGrid>
+
+
+
     </Container>
   </Layout>
 )

@@ -32,7 +32,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hello, I&apos;m a Data Analyst / Developer based in Morocco !
+        Hello, I&apos;m a Business Intelligence Developer based in Morocco !
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -40,7 +40,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Krimchi Moataz
           </Heading>
-          <p>Digital Data ( Analyst / Scientist / Engineer )</p>
+          <p>Digital DATA __ BI ENGINEER </p>
         </Box>
         <Box
           flexShrink={0}
@@ -55,7 +55,7 @@ const Home = () => (
             maxWidth="120px"
             display="inline-block"
             borderRadius="full"
-            src="/images/moatazkr.jpg"
+            src="/images/po.jpg"
             alt="Profile image"
           />
         </Box>
@@ -66,13 +66,21 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-        Student engineer in third year of computer engineering option information system at the Mohammadia School of Engineering. 
-        Very passionate about data science and data analyst, I have already done a lot of data project and even web development
-         project with ReactJS Professional experience : application internship{' '}
+        Computer engineering option information system at the Mohammadia school. 
+        Very passionate about data science and business intelligence, 
+        I have already completed many data projects and even web development projects with ReactJS. <br/> 
+        <b>Professional experience:</b> <br></br> Acaps application internship, PFE Insurbt, CDI Credit du maroc <br/>
           <NextLink href="https://www.acaps.ma/">
             <Link href="https://www.acaps.ma/">Acaps</Link>
           </NextLink>
-          .
+          &ensp;
+          <NextLink href="https://ma.linkedin.com/in/insurbt-a5b0ab139?original_referer=https%3A%2F%2Fwww.google.com%2F">
+            <Link href="https://ma.linkedin.com/in/insurbt-a5b0ab139?original_referer=https%3A%2F%2Fwww.google.com%2F">InsurBT</Link>
+          </NextLink>
+          &ensp;
+          <NextLink href="https://www.creditdumaroc.ma/">
+            <Link href="https://www.creditdumaroc.ma/">CDM</Link>
+          </NextLink>
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
@@ -100,8 +108,8 @@ const Home = () => (
           Third year at Mohammadia School of Engineering, information engineering option information system 
         </BioSection>
         <BioSection>
-          <BioYear>2022 to present</BioYear>
-          Internship BI a insurBT 
+          <BioYear>2023 </BioYear>
+          Junior DATA Developer at CDM
         </BioSection>
       </Section>
 
@@ -185,7 +193,7 @@ const Home = () => (
         <Box align="center" my={4}>
           <NextLink href="/posts">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              More
+              Certifs
             </Button>
           </NextLink>
         </Box>

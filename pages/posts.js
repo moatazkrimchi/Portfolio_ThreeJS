@@ -11,6 +11,8 @@ import thumbMyDeskSetup from '../public/images/works/work/ai.png'
 import thumb500PaidUsers from '../public/images/works/work/scrum.png'
 import thumbFinancialGoal from '../public/images/works/work/power.png'
 import thumbHowToPriceYourself from '../public/images/works/work/prince.png'
+import sas from '../public/images/works/work/certif_sas.png'
+import google from '../public/images/works/work/google.png'
 
 const Posts = () => (
   <Layout title="Posts">
@@ -21,6 +23,31 @@ const Posts = () => (
       <br/>
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
+
+        <GridItem
+            title="Google Data Analytics Certificate "
+            thumbnail={google}
+            href="https://www.credly.com/badges/f28fc635-f88a-438f-a46c-a18c6254f9af/public_url"
+          />
+          <Paragraph>
+          <Link> June 20, 2023 </Link> <br/> <br/>
+          Google Data Analytics certification certifies practical skills in data analysis. It validates knowledge of data collection, transformation, analysis and visualization. Recognized in the industry, it reinforces credibility and opens up professional opportunities in the field of data analysis.
+          </Paragraph>
+
+
+        <GridItem
+            title="Distributed Programming
+            in SAS® Viya® for Data
+            Analysts"
+            thumbnail={sas}
+            href="https://coursera.org/share/383b5a8ee0d4bcedb7c6a1f46c5cc52e"
+          />
+          <Paragraph>
+          <Link> May 18, 2023 </Link> <br/> <br/>
+          Focuses on leveraging SAS Viya's distributed programming capabilities for efficient analysis of large-scale data, covering parallel processing and distributed computing techniques.
+          </Paragraph>
+
+
            <GridItem
             title="HCIA-AI Course "
             thumbnail={thumbMyDeskSetup}
